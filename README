@@ -1,0 +1,10 @@
+Contains solutions to problems on Project Euler (projecteuler.net) using Java in Eclipse IDE.
+
+The most current version contains solutions to the first 10 problems.
+
+Folder Descriptions:
+
+- .settings: 	superfluous Eclipse settings files
+- bin: 		contains all .class files for solutions
+- input-files:  contains txt files for problems using file input as part of the solution
+- src:		contains all .java files for solutions
