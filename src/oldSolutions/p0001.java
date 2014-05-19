@@ -1,3 +1,5 @@
+package oldSolutions;
+
 /**
  * Implements a solution to Problem 1 on projecteuler.net
  * http://projecteuler.net/problem=1
