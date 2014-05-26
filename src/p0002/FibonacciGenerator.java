@@ -1,18 +1,14 @@
 package p0002;
 
 import java.util.ArrayList;
-import math.Functions;
+
+import math.Booleans;
 
 public class FibonacciGenerator {
-	
-	private int limit;
+
 	ArrayList<Integer> fibonacciList;
 	
-	public FibonacciGenerator(int limit) {
-		this.limit = limit;
-	}
-	
-	public void generateArrayList() {
+	public void generateArrayList(int limit) {
 		fibonacciList = new ArrayList<Integer>();
 		
 		int current = 1;
@@ -40,7 +36,7 @@ public class FibonacciGenerator {
 		int sum = 0;
 		
 		for (Integer value: fibonacciList) {
-			if (Functions.isEven(value)) {
+			if (Booleans.isEven(value)) {
 				sum += value;
 			}
 		}
@@ -52,7 +48,7 @@ public class FibonacciGenerator {
 		int sum = 0;
 		
 		for (Integer value: fibonacciList) {
-			if (!Functions.isEven(value)) {
+			if (!Booleans.isEven(value)) {
 				sum += value;
 			}
 		}

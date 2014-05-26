@@ -1,14 +1,8 @@
 package p0001;
 
 public class SumMultiples35 {
-	
-	private int limit;
-	
-	public SumMultiples35(int limit) {
-		this.limit = limit;
-	}
-	
-	public int getSum() {
+
+	public int getSum(int limit) {
 		int sum = 0;
 
 		for (int num = 3; num < limit; num++) {
