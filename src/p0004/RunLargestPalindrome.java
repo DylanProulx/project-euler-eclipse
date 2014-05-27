@@ -4,10 +4,17 @@ package p0004;
  * Implements a solution to Problem 4 on projecteuler.net
  * http://projecteuler.net/problem=4
  *
- * Find the largest palindrome made from the product of two 3-digit numbers.
+ * Task:
+ * Find the largest palindrome made from the product of
+ * two 3-digit numbers.
  *
- * Runtime Complexity: O((n+1)^2) where n equals the difference between the
+ * Runtime Complexity:
+ * O((n+1)^2) where n equals the difference between the
  * largest value and the smallest value.
+ *
+ * Test Case:
+ * The largest palindrome made from the product of two
+ * 2-digit numbers is  9009 = 91 × 99.
  *
  * @author Eric Honsey
  *
